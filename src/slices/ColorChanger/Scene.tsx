@@ -1,6 +1,6 @@
 import { Keyboard } from "@/app/components/Keyboard";
 import { Stage, useTexture } from "@react-three/drei";
-import { FC, use, useMemo, useRef, useState } from "react";
+import { FC, useMemo, useRef, useState } from "react";
 import { KEYCAP_TEXTURES } from ".";
 import * as THREE from "three";
 import { useGSAP } from "@gsap/react";

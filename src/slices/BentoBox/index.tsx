@@ -8,6 +8,7 @@ import {
 import { Bounded } from "@/app/components/Bounded";
 import { PrismicNextImage } from "@prismicio/next";
 import clsx from "clsx";
+import { FadeIn } from "@/app/components/FadeIn";
 
 /**
  * Props for `BentoBox`.
@@ -23,14 +24,16 @@ const BentoBox: FC<BentoBoxProps> = ({ slice }) => {
       data-slice-type={slice.slice_type}
       data-slice-variation={slice.variation}
     >
-      <h2 className="font-bold-slanted mb-8 scroll-pt-6 text-6xl uppercase md:text-8xl">
-        <PrismicText field={slice.primary.heading} />
-      </h2>
-      <div className="grid grid-cols-1 gap-4 md:grid-cols-6">
+      <FadeIn>
+        <h2 className="font-bold-slanted mb-8 scroll-pt-6 text-6xl uppercase md:text-8xl">
+          <PrismicText field={slice.primary.heading} />
+        </h2>
+      </FadeIn>
+      <FadeIn targetChildren className="grid grid-cols-1 gap-4 md:grid-cols-6">
         {slice.primary.items.map((item) => (
           <BentoBoxItem item={item} key={asText(item.text)} />
         ))}
-      </div>
+      </FadeIn>
     </Bounded>
   );
 };
