@@ -10,8 +10,8 @@ import {
 } from "react-icons/lu";
 import Stripe from "stripe";
 
-import { Logo } from "@/app/components/Logo";
-import { FadeIn } from "@/app/components/FadeIn";
+import { Logo } from "@/components/Logo";
+import { FadeIn } from "@/components/FadeIn";
 
 const stripe = new Stripe(process.env.STRIPE_SECRET_KEY!, {
   apiVersion: "2025-09-30.clover",

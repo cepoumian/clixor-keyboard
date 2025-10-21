@@ -1,7 +1,7 @@
 "use client";
 
-import { Keyboard, KeyboardRefs } from "@/app/components/Keyboard";
-import { Keycap } from "@/app/components/Keycap";
+import { Keyboard, KeyboardRefs } from "@/components/Keyboard";
+import { Keycap } from "@/components/Keycap";
 import { useGSAP } from "@gsap/react";
 import { Environment, PerspectiveCamera } from "@react-three/drei";
 import { useFrame, useThree } from "@react-three/fiber";

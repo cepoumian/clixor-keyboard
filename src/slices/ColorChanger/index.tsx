@@ -3,7 +3,7 @@
 import { FC, useCallback, useState } from "react";
 import { Content } from "@prismicio/client";
 import { PrismicText, SliceComponentProps } from "@prismicio/react";
-import { Bounded } from "@/app/components/Bounded";
+import { Bounded } from "@/components/Bounded";
 import clsx from "clsx";
 import Image from "next/image";
 import { Canvas } from "@react-three/fiber";

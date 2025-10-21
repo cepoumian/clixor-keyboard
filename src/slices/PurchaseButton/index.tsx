@@ -7,8 +7,8 @@ import {
   PrismicText,
   SliceComponentProps,
 } from "@prismicio/react";
-import { Bounded } from "@/app/components/Bounded";
-import { FadeIn } from "@/app/components/FadeIn";
+import { Bounded } from "@/components/Bounded";
+import { FadeIn } from "@/components/FadeIn";
 import clsx from "clsx";
 import { LuChevronRight, LuLoader } from "react-icons/lu";
 import gsap from "gsap";

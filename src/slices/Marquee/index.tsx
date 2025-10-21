@@ -1,7 +1,7 @@
 import { FC, Fragment } from "react";
 import { Content } from "@prismicio/client";
 import { SliceComponentProps } from "@prismicio/react";
-import { LogoMark } from "@/app/components/LogoMark";
+import { LogoMark } from "@/components/LogoMark";
 import clsx from "clsx";
 
 /**

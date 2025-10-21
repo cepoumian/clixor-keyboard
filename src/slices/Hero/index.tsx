@@ -3,7 +3,7 @@
 import { FC } from "react";
 import { Content } from "@prismicio/client";
 import { PrismicRichText, SliceComponentProps } from "@prismicio/react";
-import { Bounded } from "@/app/components/Bounded";
+import { Bounded } from "@/components/Bounded";
 import { Canvas } from "@react-three/fiber";
 import { Scene } from "./Scene";
 import gsap from "gsap";

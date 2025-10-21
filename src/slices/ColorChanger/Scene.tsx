@@ -1,4 +1,4 @@
-import { Keyboard } from "@/app/components/Keyboard";
+import { Keyboard } from "@/components/Keyboard";
 import { Stage, useTexture } from "@react-three/drei";
 import { FC, useMemo, useRef, useState } from "react";
 import { KEYCAP_TEXTURES } from ".";

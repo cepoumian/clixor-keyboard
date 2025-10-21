@@ -5,10 +5,10 @@ import {
   PrismicText,
   SliceComponentProps,
 } from "@prismicio/react";
-import { Bounded } from "@/app/components/Bounded";
+import { Bounded } from "@/components/Bounded";
 import { PrismicNextImage } from "@prismicio/next";
 import clsx from "clsx";
-import { FadeIn } from "@/app/components/FadeIn";
+import { FadeIn } from "@/components/FadeIn";
 
 /**
  * Props for `BentoBox`.

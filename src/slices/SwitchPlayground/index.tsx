@@ -7,11 +7,11 @@ import {
   PrismicText,
   SliceComponentProps,
 } from "@prismicio/react";
-import { Bounded } from "@/app/components/Bounded";
-import { FadeIn } from "@/app/components/FadeIn";
+import { Bounded } from "@/components/Bounded";
+import { FadeIn } from "@/components/FadeIn";
 import clsx from "clsx";
 import { Canvas } from "@react-three/fiber";
-import { SOUND_MAP, Switch } from "@/app/components/Switch";
+import { SOUND_MAP, Switch } from "@/components/Switch";
 import { Stage } from "@react-three/drei";
 import gsap from "gsap";
 import { LuVolume2 } from "react-icons/lu";
